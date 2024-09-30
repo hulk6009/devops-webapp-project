@@ -34,6 +34,15 @@ To get a local copy of this project up and running, follow these steps:
 
 ### Clone the repository
 
-```bash
 git clone https://github.com/your-username/my-devops-project.git
 cd my-devops-project
+
+# Build the Docker Image
+docker build -t my-flask-app .
+
+# Run the Docker Container
+docker run -p 8080:8080 my-flask-app
+
+# Access the Application
+# Open your web browser and navigate to http://localhost:8080 to view the application.
+
