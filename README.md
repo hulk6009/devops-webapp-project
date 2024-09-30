@@ -37,5 +37,26 @@ To get a local copy of this project up and running, follow these steps:
 ```bash
 git clone https://github.com/your-username/my-devops-project.git
 cd my-devops-project
+Build the Docker Image
+bash
+Copy code
+docker build -t my-flask-app .
+Run the Docker Container
+bash
+Copy code
+docker run -p 8080:8080 my-flask-app
+Access the Application
+Open your web browser and navigate to http://localhost:8080 to view the application.
 
+Usage
+This project serves as a portfolio piece to demonstrate my skills and journey in the DevOps space. Feel free to modify and use the code as a starting point for your own projects!
 
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Instructions to Use
+Copy the entire text above.
+Create a new file in your project directory named README.md.
+Paste the copied text into the README.md file.
+Update the GitHub repository link (your-username/my-devops-project) to match your actual repository path.
+If applicable, create a LICENSE file in your repository to provide licensing information.
