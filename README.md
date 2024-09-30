@@ -44,5 +44,5 @@ docker build -t my-flask-app .
 docker run -p 8080:8080 my-flask-app
 
 # Access the Application
-# Open your web browser and navigate to http://localhost:8080 to view the application.
+Open your web browser and navigate to http://localhost:8080 to view the application.
 
